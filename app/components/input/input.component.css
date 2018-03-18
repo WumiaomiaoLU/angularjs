@@ -1,0 +1,27 @@
+#title{ 
+    height: 50px;
+    /* 使垂直居中 */
+    line-height: 50px;   
+    background: black;
+}
+#head{
+   margin-left: -100px;
+   margin-right: 100px;
+   text-align: center;
+   font-size: 23px;
+   color: rgb(245, 236, 236);
+}
+
+#inp{    
+    height: 22px;
+    width: 250px;
+    border-radius: 5px;
+    border:0px;
+}
+
+#btn{
+    height: 23px;
+    width: 70px;
+    border-radius: 10px;
+    background:  rgb(235, 232, 232);
+}

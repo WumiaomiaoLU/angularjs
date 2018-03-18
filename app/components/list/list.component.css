@@ -1,0 +1,32 @@
+ 
+.tips{
+    text-align: center;
+}
+
+.list{
+   width: 500px;
+   height: 30px;
+   line-height: 30px;
+   padding-left: 15px;
+   border-radius: 5px;
+   list-style-type: none;
+   border-left: 5px rgb(74, 99, 36) solid;
+   background: rgb(235, 223, 209);
+   margin: 0 470px 10px 370px; 
+   text-align: left; 
+}
+
+.tiao{
+    margin-top: 5px;
+    height: 20px;
+    line-height: 20px;
+    width: 50px;
+    position: absolute;
+    right: 480px; 
+    border-radius: 5px;
+}
+.h2{
+  margin-left: -520px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

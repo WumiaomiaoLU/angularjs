@@ -1,0 +1,15 @@
+
+<div>
+   <h1>
+    <!-- 不能写死 -->
+     {{title}}
+   </h1>
+  
+
+   <!-- arrData是一个输入数据,需要获得，@Input -->
+   <ul *ngFor='let i of arrData; let idx=index' (click)="fn(idx)">
+     <li>{{i}}</li>
+   </ul>
+   
+   <ng-content select=".box"></ng-content>
+</div>

@@ -1,0 +1,25 @@
+ 
+
+  <div class="tips">
+    <h2 class="h2">正在进行<span>{{doing}}</span></h2>
+    <ul>
+      <li  class="list" *ngFor="let item of tolist,let idx=index">
+        <input type="checkbox" (change)="change(idx)" >{{item}}<button class="tiao" (click)="delData(idx)">删除</button>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="tips">
+    <h2 class="h2">已经完成 <span>{{done}}</span></h2>
+    <ul>
+      <li class="list" *ngFor="let item of comlist,let idx2=index">
+        <input type="checkbox"   checked (change)="change2(idx2)" >{{item}}<button class="tiao"  (click)="delData2(idx2)">删除</button>
+      </li>
+    </ul> 
+  </div>
+
+ 
+
+
+ 
