@@ -1,0 +1,31 @@
+page-home {
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.list{
+    margin-top: -30px;    
+}
+
+.list1 li{   
+   border: 0.5px solid rgb(235, 230, 230);
+   width: 25%;
+   height: 90px;
+   float: left;
+   list-style-type: none;
+   text-align: center;
+    
+}
+
+.list1 li p{
+    margin: 11px auto;
+    font-size: 16px;
+}
+.list1 li p img{
+    width: 30px;
+    height: 30px;
+}
