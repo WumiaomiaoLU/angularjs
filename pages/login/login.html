@@ -1,0 +1,24 @@
+ 
+<ion-content  class="bg"  padding > 
+    <ion-list>
+          <ion-icon ios="ios-arrow-dropleft" md="md-arrow-dropleft" style="float:left; color:white;" (click)="goHome()"></ion-icon>
+          <ion-title>登录</ion-title> 
+            <div style="text-align:center; margin:50px auto;">
+              <img src="../assets/imgs/denglu/d-0.png"  height="60px"/>
+              <p style="color:white;">全球不良资产超级综合服务平台</p>
+            </div> 
+            <ion-item class="bold">           
+              <ion-input type="text" placeholder="用户名" ></ion-input>
+            </ion-item>          
+            <ion-item class="bold">
+              <ion-input type="password" placeholder="密码"></ion-input>
+            </ion-item>
+            <div style="text-align:center; margin-top:30px;">
+                <button ion-button round style="width:320px;" color="yel">登录</button>
+                <button ion-button color="secondary" outline round color="yel" style="width:320px;" (click)="goSub()">注册</button>
+                <p style="color:white; margin-top:20px; font-size:1.5rem;" (click)="goFind()">忘记密码？</p>
+            </div>             
+    </ion-list> 
+  </ion-content>
+  
+  

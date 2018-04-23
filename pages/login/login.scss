@@ -1,0 +1,39 @@
+ 
+.bg{
+    position: absolute;
+    background-image: url('../assets/imgs/bg1.png');
+    background-size: contain;
+    width: 100%; 
+}
+.toolbar-title-ios {
+    text-align: center;
+    font-size: 2rem;     
+    color:white;
+    font-weight: 100;
+    pointer-events: auto;
+}
+.item-ios {
+    padding-left: 16px;
+    padding-left: 16px;
+    border-radius: 0;
+    position: relative;
+    font-size: 1.7rem;
+    color: #000;
+    background-color:rgba($color: #000000, $alpha: 0);
+    -webkit-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+.fix{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.7);
+}
+
+.bold{
+    border-bottom:0.55px solid  #c8c7cc;
+}
+ion-icon {
+    display: inline-block;
+    font-size: 2em;
+}

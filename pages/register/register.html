@@ -1,0 +1,31 @@
+
+<ion-content  class="bg"  padding > 
+  <ion-list>
+        <ion-icon ios="ios-arrow-dropleft" md="md-arrow-dropleft" style="float:left; color:white;"  (click)="goSub()"></ion-icon>
+        <ion-title>手机注册</ion-title>  
+          <ion-item  class="bold" style="margin-top:50px;">           
+            <ion-input type="text" placeholder="手机号" ></ion-input>
+          </ion-item>          
+          <!-- 图标 -->
+          <!-- <img src="../assets/imgs/ionic-16.png"  height="20px" style="float:left;"/>  -->
+          <ion-item class="bold" style="width:200px; float:left;">
+            <ion-input type="password" placeholder="请输入验证码" ></ion-input> 
+          </ion-item>
+          <button ion-button  color="yel" style="float:right;">获取验证码</button>
+          <ion-item class="bold">           
+            <ion-input type="text" placeholder="请输入密码"></ion-input>
+          </ion-item>          
+          <ion-item class="bold">
+            <ion-input type="password" placeholder="请再次输入密码"></ion-input>
+          </ion-item>
+
+          <div style="text-align:center; margin-top:60px;">
+              <button ion-button round style="width:320px;" color="yel">注册</button>
+              <ion-item>
+                <ion-label style="color:white; font-size:1.5rem;" >我已阅读并同意《资牙网注册协议》</ion-label>
+                <ion-checkbox color="yel" checked="true" (click)='goXieyi()'></ion-checkbox>
+              </ion-item>
+          </div> 
+  </ion-list> 
+</ion-content>
+
